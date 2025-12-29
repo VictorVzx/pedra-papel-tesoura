@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url(./img/image.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.cabecalho {
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 420px;
+    padding: 50px 60px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.game1 {
+    padding-bottom: 15px;
+}
+
+.game1 input {
+    padding: 20px;
+    height: 40px;
+    outline: none;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+}
+
+.game2 {
+    padding-bottom: 15px;
+}
+
+.game2 input{
+    padding: 20px;
+    height: 40px;
+    outline: none;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+}
+
+.botaoJogar {
+    width: 50%;
+    height: 35px;
+    background-color: darkcyan;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.botaoJogar:hover {
+    transform: scale(1.1);
+}
+
+.message {
+    margin-top: 10px;
+}
